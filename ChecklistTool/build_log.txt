@@ -1,0 +1,204 @@
+== ÂÆâË£Ö‰æùËµñÔºàËøêË°å + ÊûÑÂª∫Ôºâ
+Requirement already satisfied: pip in .\.venv\Lib\site-packages (26.2.1)
+Requirement already satisfied: PyQt6==6.11.0 in .\.venv\Lib\site-packages (from -r requirements.txt (line 9)) (6.11.0)
+Requirement already satisfied: pandas==3.0.5 in .\.venv\Lib\site-packages (from -r requirements.txt (line 12)) (3.0.5)
+Requirement already satisfied: openpyxl==3.1.5 in .\.venv\Lib\site-packages (from -r requirements.txt (line 13)) (3.1.5)
+Requirement already satisfied: xlrd==2.0.2 in .\.venv\Lib\site-packages (from -r requirements.txt (line 14)) (2.0.2)
+Requirement already satisfied: xlsxwriter==3.2.9 in .\.venv\Lib\site-packages (from -r requirements.txt (line 15)) (3.2.9)
+Requirement already satisfied: python-docx==1.2.0 in .\.venv\Lib\site-packages (from -r requirements.txt (line 18)) (1.2.0)
+Requirement already satisfied: reportlab==4.5.1 in .\.venv\Lib\site-packages (from -r requirements.txt (line 21)) (4.5.1)
+Requirement already satisfied: pdfplumber==0.11.10 in .\.venv\Lib\site-packages (from -r requirements.txt (line 24)) (0.11.10)
+Requirement already satisfied: requests==2.34.2 in .\.venv\Lib\site-packages (from -r requirements.txt (line 27)) (2.34.2)
+Requirement already satisfied: pyinstaller==6.16.0 in .\.venv\Lib\site-packages (from -r requirements-build.txt (line 7)) (6.16.0)
+Requirement already satisfied: pyinstaller-hooks-contrib==2025.9 in .\.venv\Lib\site-packages (from -r requirements-build.txt (line 8)) (2025.9)
+Requirement already satisfied: pillow==12.3.0 in .\.venv\Lib\site-packages (from -r requirements-build.txt (line 11)) (12.3.0)
+Requirement already satisfied: PyQt6-sip<14,>=13.8 in .\.venv\Lib\site-packages (from PyQt6==6.11.0->-r requirements.txt (line 9)) (13.12.0)
+Requirement already satisfied: PyQt6-Qt6<6.12.0,>=6.11.0 in .\.venv\Lib\site-packages (from PyQt6==6.11.0->-r requirements.txt (line 9)) (6.11.1)
+Requirement already satisfied: numpy>=2.3.3 in .\.venv\Lib\site-packages (from pandas==3.0.5->-r requirements.txt (line 12)) (2.5.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in .\.venv\Lib\site-packages (from pandas==3.0.5->-r requirements.txt (line 12)) (2.9.0.post0)
+Requirement already satisfied: tzdata in .\.venv\Lib\site-packages (from pandas==3.0.5->-r requirements.txt (line 12)) (2026.3)
+Requirement already satisfied: et-xmlfile in .\.venv\Lib\site-packages (from openpyxl==3.1.5->-r requirements.txt (line 13)) (2.0.0)
+Requirement already satisfied: lxml>=3.1.0 in .\.venv\Lib\site-packages (from python-docx==1.2.0->-r requirements.txt (line 18)) (6.1.2)
+Requirement already satisfied: typing_extensions>=4.9.0 in .\.venv\Lib\site-packages (from python-docx==1.2.0->-r requirements.txt (line 18)) (4.16.0)
+Requirement already satisfied: charset-normalizer in .\.venv\Lib\site-packages (from reportlab==4.5.1->-r requirements.txt (line 21)) (3.5.1)
+Requirement already satisfied: pdfminer.six==20260107 in .\.venv\Lib\site-packages (from pdfplumber==0.11.10->-r requirements.txt (line 24)) (20260107)
+Requirement already satisfied: pypdfium2>=5.9.0 in .\.venv\Lib\site-packages (from pdfplumber==0.11.10->-r requirements.txt (line 24)) (5.13.0)
+Requirement already satisfied: idna<4,>=2.5 in .\.venv\Lib\site-packages (from requests==2.34.2->-r requirements.txt (line 27)) (3.19)
+Requirement already satisfied: urllib3<3,>=1.26 in .\.venv\Lib\site-packages (from requests==2.34.2->-r requirements.txt (line 27)) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in .\.venv\Lib\site-packages (from requests==2.34.2->-r requirements.txt (line 27)) (2026.7.22)
+Requirement already satisfied: altgraph in .\.venv\Lib\site-packages (from pyinstaller==6.16.0->-r requirements-build.txt (line 7)) (0.17.5)
+Requirement already satisfied: packaging>=22.0 in .\.venv\Lib\site-packages (from pyinstaller==6.16.0->-r requirements-build.txt (line 7)) (26.3)
+Requirement already satisfied: pefile!=2024.8.26,>=2022.5.30 in .\.venv\Lib\site-packages (from pyinstaller==6.16.0->-r requirements-build.txt (line 7)) (2023.2.7)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in .\.venv\Lib\site-packages (from pyinstaller==6.16.0->-r requirements-build.txt (line 7)) (0.2.3)
+Requirement already satisfied: setuptools>=42.0.0 in .\.venv\Lib\site-packages (from pyinstaller==6.16.0->-r requirements-build.txt (line 7)) (84.0.0)
+Requirement already satisfied: cryptography>=36.0.0 in .\.venv\Lib\site-packages (from pdfminer.six==20260107->pdfplumber==0.11.10->-r requirements.txt (line 24)) (50.0.0)
+Requirement already satisfied: cffi>=2.0.0 in .\.venv\Lib\site-packages (from cryptography>=36.0.0->pdfminer.six==20260107->pdfplumber==0.11.10->-r requirements.txt (line 24)) (2.1.1)
+Requirement already satisfied: pycparser in .\.venv\Lib\site-packages (from cffi>=2.0.0->cryptography>=36.0.0->pdfminer.six==20260107->pdfplumber==0.11.10->-r requirements.txt (line 24)) (3.0)
+Requirement already satisfied: six>=1.5 in .\.venv\Lib\site-packages (from python-dateutil>=2.8.2->pandas==3.0.5->-r requirements.txt (line 12)) (1.17.0)
+[PASS] µº»Î PyQt6.QtWidgets
+[PASS] µº»Î pandas
+[PASS] µº»Î openpyxl
+[PASS] µº»Î xlrd
+[PASS] µº»Î xlsxwriter
+[PASS] µº»Î docx
+[PASS] µº»Î pdfplumber
+[PASS] µº»Î reportlab
+[PASS] µº»Î pdfminer.cmapdb
+[PASS] ÀÊ∞¸◊ ‘¥ assets/icon.ico
+[PASS] xlsx –¥»Î+Ω‚Œˆªÿª∑
+[PASS] Excel µº≥ˆ
+[PASS] PDF µº≥ˆ+pdfplumber ∂¡ªÿ
+[PASS] docx Ω®±Ì+Ω‚Œˆªÿª∑
+[PASS] SQLite …Ë±∏ ˝æ›¥Ê¥¢≤„ªÿª∑
+SMOKE_TEST_OK
+
+== PyInstaller ÊûÑÂª∫‰∏≠ÔºàÁ∫¶Êï∞ÂàÜÈíüÔºâ...
+125 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.9
+125 INFO: Python: 3.14.0
+154 INFO: Platform: Windows-11-10.0.22631-SP0
+154 INFO: Python environment: E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\.venv
+156 INFO: Removing temporary files and cleaning cache in C:\Users\Administrator\AppData\Local\pyinstaller
+ChecklistTool.spec:4: SyntaxWarning: "\C" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\C"? A raw string is also an option.
+  - onedir  -> dist\ChecklistTool\ChecklistTool.exe   £®√‚∞≤◊∞Œƒº˛º–£¨÷˜Õ∆∑÷∑¢£©
+696 INFO: Module search paths (PYTHONPATH):
+['E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool',
+ 'C:\\Python314\\python314.zip',
+ 'C:\\Python314\\DLLs',
+ 'C:\\Python314\\Lib',
+ 'C:\\Python314',
+ 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv',
+ 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages',
+ 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool',
+ 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool']
+998 INFO: Appending 'datas' from .spec
+999 INFO: checking Analysis
+999 INFO: Building Analysis because Analysis-00.toc is non existent
+999 INFO: Looking for Python shared library...
+999 INFO: Using Python shared library: C:\Python314\python314.dll
+999 INFO: Running Analysis Analysis-00.toc
+999 INFO: Target bytecode optimization level: 0
+999 INFO: Initializing module dependency graph...
+1000 INFO: Initializing module graph hook caches...
+1009 INFO: Analyzing modules for base_library.zip ...
+2240 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3551 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3561 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3645 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4674 INFO: Caching module dependency graph...
+4695 INFO: Analyzing E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\main.py
+4729 INFO: Processing standard module hook 'hook-pandas.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5729 INFO: Processing standard module hook 'hook-platform.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5755 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5880 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5951 INFO: Processing standard module hook 'hook-numpy.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6417 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+6418 INFO: SetuptoolsInfo: initializing cached setuptools info...
+7247 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7390 INFO: Processing standard module hook 'hook-xml.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12739 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13653 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+16858 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+21594 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23058 INFO: Processing standard module hook 'hook-dateutil.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+23390 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25674 INFO: Processing standard module hook 'hook-openpyxl.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+25866 INFO: Processing standard module hook 'hook-lxml.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+26191 INFO: Processing standard module hook 'hook-lxml.etree.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+26513 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+27177 INFO: Processing standard module hook 'hook-PIL.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+27411 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28688 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+33614 INFO: Processing standard module hook 'hook-sqlite3.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+33914 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+34181 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+35461 INFO: Processing standard module hook 'hook-docx.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+36688 INFO: Processing standard module hook 'hook-pdfminer.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+37988 INFO: Processing standard module hook 'hook-cryptography.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+38773 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+40000 INFO: Processing standard module hook 'hook-pypdfium2.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+40075 INFO: Processing standard module hook 'hook-pypdfium2_raw.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+40799 INFO: Processing standard module hook 'hook-reportlab.pdfbase._fontdata.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+41202 INFO: Processing standard module hook 'hook-reportlab.lib.utils.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+45097 INFO: Processing standard module hook 'hook-urllib3.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+46292 INFO: Processing standard module hook 'hook-certifi.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+46931 INFO: Processing standard module hook 'hook-PyQt6.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48734 INFO: Processing standard module hook 'hook-PyQt6.QtWidgets.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+50137 INFO: Processing standard module hook 'hook-PyQt6.QtCore.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+51958 INFO: Processing standard module hook 'hook-PyQt6.QtGui.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+53152 INFO: Analyzing hidden import 'pdfminer.high_level'
+53166 INFO: Analyzing hidden import 'pdfplumber.cli'
+53178 INFO: Analyzing hidden import 'pdfplumber.ctm'
+53183 INFO: Processing module hooks (post-graph stage)...
+53196 WARNING: Hidden import "charset_normalizer.md__mypyc" not found!
+53746 INFO: Processing standard module hook 'hook-lxml.isoschematron.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+53804 WARNING: Hidden import "jinja2" not found!
+54707 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+54886 INFO: Processing standard module hook 'hook-lxml.objectify.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+54887 INFO: Processing standard module hook 'hook-tzdata.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+55698 INFO: Performing binary vs. data reclassification (929 entries)
+55892 INFO: Looking for ctypes DLLs
+56065 INFO: Analyzing run-time hooks ...
+56075 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+56080 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+56087 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+56090 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+56092 INFO: Including run-time hook 'pyi_rth_pyqt6.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+56095 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+56106 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+56180 INFO: Creating base_library.zip...
+56207 INFO: Looking for dynamic libraries
+58076 INFO: Extra DLL search directories (AddDllDirectory): ['E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin', 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\pandas.libs', 'E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\numpy.libs']
+58076 INFO: Extra DLL search directories (PATH): ['E:\\SilentUrge\\List-review-tool-main\\List-review-tool-main\\ChecklistTool\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin']
+59541 INFO: Warnings written to E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\build\ChecklistTool\warn-ChecklistTool.txt
+59621 INFO: Graph cross-reference written to E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\build\ChecklistTool\xref-ChecklistTool.html
+59676 INFO: checking PYZ
+59676 INFO: Building PYZ because PYZ-00.toc is non existent
+59676 INFO: Building PYZ (ZlibArchive) E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\build\ChecklistTool\PYZ-00.pyz
+60299 INFO: Building PYZ (ZlibArchive) E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\build\ChecklistTool\PYZ-00.pyz completed successfully.
+60337 INFO: checking PKG
+60337 INFO: Building PKG because PKG-00.toc is non existent
+60337 INFO: Building PKG (CArchive) ChecklistTool.pkg
+60367 INFO: Building PKG (CArchive) ChecklistTool.pkg completed successfully.
+60368 INFO: Bootloader E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+60368 INFO: checking EXE
+60368 INFO: Building EXE because EXE-00.toc is non existent
+60368 INFO: Building EXE from EXE-00.toc
+60368 INFO: Copying bootloader EXE to E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\build\ChecklistTool\ChecklistTool.exe
+60681 INFO: Copying icon to EXE
+60841 INFO: Copying version information to EXE
+61001 INFO: Copying 0 resources to EXE
+61001 INFO: Embedding manifest in EXE
+61166 INFO: Appending PKG archive to EXE
+61172 INFO: Fixing EXE headers
+61229 INFO: Building EXE from EXE-00.toc completed successfully.
+61244 INFO: checking COLLECT
+61245 INFO: Building COLLECT because COLLECT-00.toc is non existent
+61245 INFO: Building COLLECT COLLECT-00.toc
+62391 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+62424 INFO: checking PKG
+62424 INFO: Building PKG because PKG-01.toc is non existent
+62424 INFO: Building PKG (CArchive) ChecklistTool.pkg
+69392 INFO: Building PKG (CArchive) ChecklistTool.pkg completed successfully.
+69407 INFO: Bootloader E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+69407 INFO: checking EXE
+69407 INFO: Building EXE because EXE-01.toc is non existent
+69407 INFO: Building EXE from EXE-01.toc
+69407 INFO: Copying bootloader EXE to E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\dist\ChecklistTool.exe
+69415 INFO: Copying icon to EXE
+69421 INFO: Copying version information to EXE
+69425 INFO: Copying 0 resources to EXE
+69425 INFO: Embedding manifest in EXE
+69430 INFO: Appending PKG archive to EXE
+69467 INFO: Fixing EXE headers
+69718 INFO: Building EXE from EXE-01.toc completed successfully.
+69734 INFO: Build complete! The results are available in: E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\dist
+== ÂÜíÁÉüÊµãËØï: E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\dist\ChecklistTool\ChecklistTool.exe
+== ÂÜíÁÉüÈÄöËøá: E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\dist\ChecklistTool\ChecklistTool.exe
+== ÂÜíÁÉüÊµãËØï: E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\dist\ChecklistTool.exe
+== ÂÜíÁÉüÈÄöËøá: E:\SilentUrge\List-review-tool-main\List-review-tool-main\ChecklistTool\dist\ChecklistTool.exe
+== ÂéãÁº©ÂÖçÂÆâË£ÖÂåÖ...
+
+==== ÊûÑÂª∫ÂÆåÊàê ====
+onedir  : dist\ChecklistTool\  (ÂÖ± 188.3 MB)
+onefile : dist\ChecklistTool.exe  (83.8 MB)
+zip     : dist\ChecklistTool_v2.2_ÂÖçÂÆâË£Ö.zip  (84.1 MB)
